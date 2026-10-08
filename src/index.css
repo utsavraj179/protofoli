@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { background: #050816; color: #fff; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; overflow-x: hidden; }
+.glass { background: rgba(16, 13, 37, 0.8); border: 1px solid rgba(145, 94, 255, 0.25); backdrop-filter: blur(8px); }
+.grad { background: linear-gradient(90deg, #915eff, #00cea8); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.sec { max-width: 80rem; margin: 0 auto; padding: 6rem 1.5rem; position: relative; z-index: 1; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
